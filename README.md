@@ -81,9 +81,6 @@
 
 Now, you have successfully installed and activated Burp Suite Pro on your Windows system. You can start using it for your security assessments and penetration testing tasks.
 
-If you encounter any issues during the installation process, please refer to the troubleshooting section in the script's documentation or reach out for assistance.
-
-**Note**: Ensure that you use this guide and the provided script responsibly and in compliance with the license terms and ethical considerations.
 
 ## Installation-Guide-for-Burp-Suite-Pro-on-Linux
 
@@ -133,6 +130,11 @@ Before you begin, ensure you have the following prerequisites in place:
 
 Now, you have successfully installed and activated Burp Suite Pro on your Linux system. You can start using it for your security assessments and penetration testing tasks.
 
-If you encounter any issues during the installation process, please refer to the troubleshooting section in the script's documentation or reach out for assistance.
+## Troubleshooting
 
-**Note**: Ensure that you use this guide and the provided script responsibly and in compliance with the license terms and ethical considerations.
+If you encounter any issues during the installation process or have any questions, feel free to reach out to me on Instagram for assistance.
+
+[![Instagram Profile](https://img.icons8.com/color/48/000000/instagram-new.png)](https://www.instagram.com/sneckey0day/)
+
+I'll be happy to help you with any problems or queries you may have.
+
