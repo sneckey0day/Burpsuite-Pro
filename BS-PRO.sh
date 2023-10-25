@@ -1,19 +1,15 @@
 #!/bin/bash
 
 echo "
-                #####    #     #    #####    #     #   #     # 
-               #     #   ##    #   #     #   #     #   ##    # 
-               #         # #   #   #         #     #   # #   # 
-                #####    #  #  #   #  ####   #  #  #   #  #  # 
-                     #   #   # #   #     #   #  #  #   #   # # 
-               #     #   #    ##   #     #   #  #  #   #    ## 
-                #####    #     #    #####     ## ##    #     # 
+╔╗ ╦═╗╦ ╦╔═╗╔═╗╦ ╦╦╔╦╗╔═╗  ╔═╗╦═╗╔═╗
+╠╩╗╠╦╝║ ║╠═╝╚═╗║ ║║ ║ ║╣   ╠═╝╠╦╝║ ║
+╚═╝╩╚═╚═╝╩  ╚═╝╚═╝╩ ╩ ╚═╝  ╩  ╩╚═╚═╝                                                                                             
 "
 
 if [[ $EUID -eq 0 ]]; then
     # Download Burp Suite Profesional Latet Version
-    echo 'Downloading Burp Suite Professional v2022.8.2 ....'
-    Link="https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.2&type=jar"
+    echo 'Downloading Burp Suite Professional v2023.8.2 ....'
+    Link="https://portswigger-cdn.net/burp/releases/download?product=pro&version=2023.10.3.1&type=Jar"
     wget "$Link" -O Burp_Suite_Pro.jar --quiet --show-progress
     sleep 2
 
