@@ -10,8 +10,8 @@ This repository contains a collection of scripts and tools designed to enhance a
 
 - [Features](#features)
 - [Installation](#installation)
-- [Install In Windows](##Installation Guide for Burp Suite Pro on Windows)
-- [Install In Linux](#installation)
+- [Install In Windows](##Installation)
+- [Install In Linux]()
 
 ## Features
 
@@ -36,8 +36,6 @@ Ensure you have the following prerequisites installed on your system:
 ## Installation Guide for Burp Suite Pro on Windows
 
 This guide will walk you through the installation of Burp Suite Pro on a Windows system using the provided `Windows_setup.ps1` script. The script automates the installation process, including setting up Java JDK and activating Burp Suite Pro.
-
-### Installation Steps
 
 1. **Download the Windows_setup.ps1 Script**:
 
