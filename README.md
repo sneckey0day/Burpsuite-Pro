@@ -33,12 +33,3 @@ Ensure you have the following prerequisites installed on your system:
 - Internet :)
 
 ## Installation
-
-
-
-
-### Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/burp-scripts.git
-cd burp-scripts
