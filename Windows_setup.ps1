@@ -1,12 +1,12 @@
 # Name is Important
 echo "
-                #####    #     #    #####    #     #   #     # 
-               #     #   ##    #   #     #   #     #   ##    # 
-               #         # #   #   #         #     #   # #   # 
-                #####    #  #  #   #  ####   #  #  #   #  #  # 
-                     #   #   # #   #     #   #  #  #   #   # # 
-               #     #   #    ##   #     #   #  #  #   #    ## 
-                #####    #     #    #####     ## ##    #     # 
+██████╗ ███████╗      ██████╗ ██████╗  ██████╗ 
+██╔══██╗██╔════╝      ██╔══██╗██╔══██╗██╔═══██╗
+██████╔╝███████╗█████╗██████╔╝██████╔╝██║   ██║
+██╔══██╗╚════██║╚════╝██╔═══╝ ██╔══██╗██║   ██║
+██████╔╝███████║      ██║     ██║  ██║╚██████╔╝
+╚═════╝ ╚══════╝      ╚═╝     ╚═╝  ╚═╝ ╚═════╝ 
+                                               
 "
 
 # Set Wget Progress to Silent, Becuase it slows down Downloading by +50x
@@ -43,13 +43,13 @@ if (!($jre8)){
 if (Test-Path Burp-Suite-Pro.jar){
     echo "Burp Suite Professional JAR file is available.`nChecking its Integrity ...."
     if (((Get-Item Burp-Suite-Pro.jar).length/1MB) -lt 500 ){
-        echo "`n`t`tFiles Seems to be corrupted `n`t`tDownloading Burp Suite Professional v2022.8.2 ...."
-        wget "https://portswigger.net/burp/releases/startdownload?product=pro&version=2022.8.2&type=Jar" -O "Burp-Suite-Pro.jar"
+        echo "`n`t`tFiles Seems to be corrupted `n`t`tDownloading Burp Suite Professional v2023.10.3.1 ...."
+        wget "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2023.10.3.1&type=Jar" -O "Burp-Suite-Pro.jar"
         echo "`nBurp Suite Professional is Downloaded.`n"
     }else {echo "File Looks fine. Lets proceed for Execution"}
 }else {
-    echo "`n`t`tDownloading Burp Suite Professional v2022.8.2 ...."
-    wget "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2022.8.2&type=jar" -O "Burp-Suite-Pro.jar"
+    echo "`n`t`tDownloading Burp Suite Professional v2023.10.3.1 ...."
+    wget "https://portswigger-cdn.net/burp/releases/download?product=pro&version=2023.10.3.1&type=Jar" -O "Burp-Suite-Pro.jar"
     echo "`nBurp Suite Professional is Downloaded.`n"
 }
 
@@ -80,9 +80,3 @@ echo "`n`nStarting Keygenerator ...."
 start-process java.exe -argumentlist "-jar keygen.jar"
 echo "`n`nStarting Burp Suite Professional"
 java --add-opens=java.desktop/javax.swing=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED -javaagent:"loader.jar" -noverify -jar "Burp-Suite-Pro.jar"
-
-
-# Lets Download the latest Burp Suite Professional jar File
-echo "`n`t`t 1. Please download latest Burp Suite Professional Jar file from :-:"
-echo "`n`t`t https://portswigger.net/burp/releases/startdownload?product=pro&version=&type=Jar"
-echo "`n`t`t 2. Replace the existing Burp-Suite-Pro.jar file with downloaded jar file. `n`t Keep previous file name"
