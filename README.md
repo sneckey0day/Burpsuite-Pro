@@ -1,6 +1,6 @@
 # Burp Suite Pro Scripts for Windows and Linux
 
-![Burp Suite Logo]([https://i.ibb.co/RjV7mHW/c338-article-burp-suite-user-community-tips-and-tricks-blog-article.jpg])
+![Burp Suite Logo](https://i.ibb.co/RjV7mHW/c338-article-burp-suite-user-community-tips-and-tricks-blog-article.jpg)
 
 ## Introduction
 
