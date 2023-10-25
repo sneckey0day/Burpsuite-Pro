@@ -6,12 +6,10 @@
 
 This repository contains a collection of scripts and tools designed to enhance and extend the functionality of Burp Suite Pro on both Windows and Linux platforms. These scripts are intended to streamline various tasks, automate repetitive actions, and provide additional features for penetration testers and security professionals.
 
-## Table of Contents
+## Installation For Your OS
 
-- [Features](#features)
-- [Installation](#installation)
-- [Install In Windows](#Installation-Guide-for-Burp-Suite-Pro-on-Windows)
-- [Install In Linux]()
+### - [ Install In Windows](#Installation-Guide-for-Burp-Suite-Pro-on-Windows)
+### - [ Install In Linux](#Installation-Guide-for-Burp-Suite-Pro-on-Linux)
 
 ## Features
 
@@ -85,3 +83,56 @@ Now, you have successfully installed and activated Burp Suite Pro on your Window
 If you encounter any issues during the installation process, please refer to the troubleshooting section in the script's documentation or reach out for assistance.
 
 **Note**: Ensure that you use this guide and the provided script responsibly and in compliance with the license terms and ethical considerations.
+
+## Installation-Guide-for-Burp-Suite-Pro-on-Linux
+
+This guide will walk you through the installation of Burp Suite Pro on a Linux system using the provided `Linux.sh` script. The script automates the installation process and includes setting up Java JDK and activating Burp Suite Pro.
+
+### Prerequisites
+
+Before you begin, ensure you have the following prerequisites in place:
+
+- A Linux operating system (e.g., Ubuntu, CentOS, etc.)
+- Internet connectivity to download necessary files
+- Basic knowledge of the Linux command line
+
+### Installation Steps
+
+1. **Clone the Repository**:
+
+   - Open your terminal and navigate to the directory where you want to clone the repository.
+   - Run the following command to clone the repository:
+
+     ```shell
+     git clone https://github.com/sneckey0day/Burpsuite-Pro
+     cd Burpsuite-Pro
+     ```
+
+2. **Run the Linux.sh Script**:
+
+   - In the terminal, navigate to the directory where you cloned the repository.
+   - Run the `BS-PRO.sh` script by executing the following command:
+
+     ```shell
+     chmod +x BS-PRO.sh
+     ./BS-PRO.sh
+     ```
+
+   This script will perform the following actions:
+
+   - Install Java JDK (if not already installed).
+   - Launch the keygen for Burp Suite Pro.
+   - Guide you to copy the request and paste it into Burp Suite Pro.
+   - In Burp Suite Pro, click on "Manual installation."
+   - Copy the response from the keygen and paste it into Burp Suite Pro to activate it.
+
+3. **Launch Burp Suite Pro**:
+
+   - After activating Burp Suite Pro, the script will proceed to launch Burp Suite Pro.
+
+Now, you have successfully installed and activated Burp Suite Pro on your Linux system. You can start using it for your security assessments and penetration testing tasks.
+
+If you encounter any issues during the installation process, please refer to the troubleshooting section in the script's documentation or reach out for assistance.
+
+**Note**: Ensure that you use this guide and the provided script responsibly and in compliance with the license terms and ethical considerations.
+
