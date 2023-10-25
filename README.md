@@ -1,6 +1,6 @@
 # Burp Suite Pro Scripts for Windows and Linux
 
-🌐 ![Burp Suite Logo](https://portswigger.net/cms/images/12/c8/c338-article-burp-suite-user-community-tips-and-tricks_blog-article.jpg)
+![Burp Suite Logo](https://portswigger.net/cms/images/12/c8/c338-article-burp-suite-user-community-tips-and-tricks_blog-article.jpg)
 
 ## Introduction
 
