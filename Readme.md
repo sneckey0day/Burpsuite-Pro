@@ -1,55 +1,40 @@
+# Burp Suite Pro Scripts for Windows and Linux
 
+![Burp Suite Logo](https://portswigger.net/content/images/og-image.png)
 
---------------------------------------------------------------------------------------------
-# Burp Suite Professional Installation steps for Windows
-	--> Open Powershell and execute below command to set Script Execution Policy.
-		Set-ExecutionPolicy -ExecutionPolicy bypass -Scope process
-	--> Now Execute Windows_Setup.ps1 file in Powershell to Complete Installation.
-		./Windows_Setup.ps1
-	--> For Start Menu Entry, copy **Burp-Suite-Pro.vbs** file to 
-		C:\ProgramData\Microsoft\Windows\Start Menu\Programs\
+## Introduction
 
------------------------------------------------------------------------------------------------------------------
-# Burp Suite Professional Installation steps for Kali-Linux 
-	--> Execute Kali_Linux_Setup.sh file as root user
+This repository contains a collection of scripts and tools designed to enhance and extend the functionality of Burp Suite Pro on both Windows and Linux platforms. These scripts are intended to streamline various tasks, automate repetitive actions, and provide additional features for penetration testers and security professionals.
 
------------------------------------------------------------------------------------------------------------------
-# Burp Suite Pro Activation Steps 
-	1. Modify License String like "license to Siddharth"
-	2. Copy License key from keygen.jar and paste in Burp Suite Pro and click Next.
-	3. Select Manual Activation Option on your bottom Right in Burp Suite Pro.
-	4. Copy License Request from BurpSuite_Pro and paste in Keygenerator.
-	5. Copy license response from Keygenerator and paste in Burp Suite Pro, then next and Done.
-	
------------------------------------------------------------------------------------------------------------------
-# Executing Burp Suite Profession after Activation
-	--> Windows :-: You can start Burp Suite Professional from Start Menu.
-	--> Kali Linux :-: You can start Burp Suite Professional by writing **burp** in terminal.
+## Table of Contents
 
------------------------------------------------------------------------------------------------------------------
-# Updating Burp Suite Professional -- Only Support upto 2022.8.5
-	--> Replace existing Burp-Suite-Pro.jar file with latest Burp Suite Professional jar file. 
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
------------------------------------------------------------------------------------------------------------------
-# Videos For further Reference 	
-	--> Installing Burp Suite Professional in Kali Linux for Free
-[![Installing Burp Suite Professional in Kali Linux for Free](https://img.youtube.com/vi/N0KQrk77BBo/0.jpg)](https://www.youtube.com/watch?v=N0KQrk77BBo)
+## Features
 
-	
-	--> Installing Burp Suite Professional in Windows for Free
-[![Installing Burp Suite Professional in Windows for Free](https://img.youtube.com/vi/j1AKdSYL6wE/0.jpg)](https://www.youtube.com/watch?v=j1AKdSYL6wE)
+List the key features of your Burp Suite Pro scripts here, such as:
 
+- Automated scanning and vulnerability detection.
+- Customizable request/response manipulation.
+- Integration with popular security tools.
+- Reporting and export capabilities.
+- And more!
 
-	--> Introduction to Burp Suite Professionaal
-[![Introduction to Burp Suite Professional -- Beginner to Intermediate](https://img.youtube.com/vi/L5euJM2Hxrg/0.jpg)](https://www.youtube.com/watch?v=L5euJM2Hxrg)
+## Installation
 
+### Prerequisites
 
-	--> SSL Pinning Bypass Method 1 :-: 
-	Burp Suite Configuration for Android Applications and SSL Pinning Bypass.
-[![Burp Suite Configuration for Android Applications and SSL Pinning Bypass.](https://img.youtube.com/vi/1721lyUtfYY/0.jpg)](https://www.youtube.com/watch?v=1721lyUtfYY)
+Ensure you have the following prerequisites installed on your system:
 
+- [Burp Suite Pro](https://portswigger.net/burp)
+- [Python 3.x](https://www.python.org/downloads/)
 
-	--> SSL Pinning Bypass Method 2 :-: 
-	Root Android Studio Device with Magisk and Install Burp Certificate in System Certificate Store.
-[![Root Android Studio Device with Magisk and Install Burp Certificate in System Certificate Store.](https://img.youtube.com/vi/qQicUW0svB8/0.jpg)](https://www.youtube.com/watch?v=qQicUW0svB8)
-[![Root Android Studio Device with Magisk and Install Burp Certificate in System Certificate Store.](https://img.youtube.com/vi/0nGkALom0jI/0.jpg)](https://www.youtube.com/watch?v=0nGkALom0jI)
+### Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/burp-scripts.git
+cd burp-scripts
