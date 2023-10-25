@@ -2,6 +2,13 @@
 
 ![Burp Suite Logo](https://portswigger.net/cms/images/12/c8/c338-article-burp-suite-user-community-tips-and-tricks_blog-article.jpg)
 
+If you encounter any issues during the installation process or have any questions, feel free to reach out to me on Instagram for assistance.
+
+[![Instagram Profile](https://img.icons8.com/color/48/000000/instagram-new.png)](https://www.instagram.com/sneckey0day/)
+
+I'll be happy to help you with any problems or queries you may have.
+
+
 ## Introduction
 
 📦 This repository contains a collection of scripts and tools designed to enhance and extend the functionality of Burp Suite Pro on both Windows and Linux platforms. These scripts are intended to streamline various tasks, automate repetitive actions, and provide additional features for penetration testers and security professionals.
@@ -129,12 +136,3 @@ Before you begin, ensure you have the following prerequisites in place:
    - After activating Burp Suite Pro, the script will proceed to launch Burp Suite Pro.
 
 Now, you have successfully installed and activated Burp Suite Pro on your Linux system. You can start using it for your security assessments and penetration testing tasks.
-
-## Troubleshooting
-
-If you encounter any issues during the installation process or have any questions, feel free to reach out to me on Instagram for assistance.
-
-[![Instagram Profile](https://img.icons8.com/color/48/000000/instagram-new.png)](https://www.instagram.com/sneckey0day/)
-
-I'll be happy to help you with any problems or queries you may have.
-
