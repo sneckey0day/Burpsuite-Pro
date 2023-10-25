@@ -1,9 +1,13 @@
 #!/bin/bash
 
 echo "
-╔╗ ╦═╗╦ ╦╔═╗╔═╗╦ ╦╦╔╦╗╔═╗  ╔═╗╦═╗╔═╗
-╠╩╗╠╦╝║ ║╠═╝╚═╗║ ║║ ║ ║╣   ╠═╝╠╦╝║ ║
-╚═╝╩╚═╚═╝╩  ╚═╝╚═╝╩ ╩ ╚═╝  ╩  ╩╚═╚═╝                                                                                             
+██████╗ ███████╗      ██████╗ ██████╗  ██████╗ 
+██╔══██╗██╔════╝      ██╔══██╗██╔══██╗██╔═══██╗
+██████╔╝███████╗█████╗██████╔╝██████╔╝██║   ██║
+██╔══██╗╚════██║╚════╝██╔═══╝ ██╔══██╗██║   ██║
+██████╔╝███████║      ██║     ██║  ██║╚██████╔╝
+╚═════╝ ╚══════╝      ╚═╝     ╚═╝  ╚═╝ ╚═════╝ 
+                                                                                                                                          
 "
 
 if [[ $EUID -eq 0 ]]; then
@@ -28,8 +32,3 @@ else
     echo "Execute Command as Root User"
     exit
 fi
-
-# Lets Download the latest Burp Suite Professional jar File
-echo "`n`t 1. Please download latest Burp Suite Professional Jar file from :-:"
-echo "`n`t https://portswigger.net/burp/releases/startdownload?product=pro&version=&type=Jar"
-echo "`n`t 2. Replace the existing Burp-Suite-Pro.jar file with downloaded jar file. `n`t Keep previous file name"
