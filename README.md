@@ -10,7 +10,7 @@ This repository contains a collection of scripts and tools designed to enhance a
 
 - [Features](#features)
 - [Installation](#installation)
-- [Install In Windows](#Installation Guide for Burp Suite Pro on Windows)
+- [Install In Windows](##Installation Guide for Burp Suite Pro on Windows)
 - [Install In Linux](#installation)
 
 ## Features
