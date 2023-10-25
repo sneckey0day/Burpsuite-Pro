@@ -26,12 +26,14 @@ List the key features of your Burp Suite Pro scripts here, such as:
 
 ## Installation
 
+
+
 ### Prerequisites
 
 Ensure you have the following prerequisites installed on your system:
 
-- [Burp Suite Pro](https://portswigger.net/burp)
-- [Python 3.x](https://www.python.org/downloads/)
+- Brain 🧠
+- Internet :)
 
 ### Clone the Repository
 
