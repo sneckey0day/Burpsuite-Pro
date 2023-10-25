@@ -1,19 +1,20 @@
 # Burp Suite Pro Scripts for Windows and Linux
 
-![Burp Suite Logo](https://portswigger.net/cms/images/12/c8/c338-article-burp-suite-user-community-tips-and-tricks_blog-article.jpg)
+🌐 ![Burp Suite Logo](https://portswigger.net/cms/images/12/c8/c338-article-burp-suite-user-community-tips-and-tricks_blog-article.jpg)
 
 ## Introduction
 
-This repository contains a collection of scripts and tools designed to enhance and extend the functionality of Burp Suite Pro on both Windows and Linux platforms. These scripts are intended to streamline various tasks, automate repetitive actions, and provide additional features for penetration testers and security professionals.
+📦 This repository contains a collection of scripts and tools designed to enhance and extend the functionality of Burp Suite Pro on both Windows and Linux platforms. These scripts are intended to streamline various tasks, automate repetitive actions, and provide additional features for penetration testers and security professionals.
 
 ## Installation For Your OS
 
-### - [ Install In Windows](#Installation-Guide-for-Burp-Suite-Pro-on-Windows)
-### - [ Install In Linux](#Installation-Guide-for-Burp-Suite-Pro-on-Linux)
+🖥️ **Install In Windows** [🔗](#Installation-Guide-for-Burp-Suite-Pro-on-Windows)
+
+🐧 **Install In Linux** [🔗](#Installation-Guide-for-Burp-Suite-Pro-on-Linux)
 
 ## Features
 
-List the key features of your Burp Suite Pro scripts here, such as:
+🚀 List the key features of your Burp Suite Pro scripts here, such as:
 
 - Automated scanning and vulnerability detection.
 - Customizable request/response manipulation.
@@ -24,16 +25,16 @@ List the key features of your Burp Suite Pro scripts here, such as:
   
 ### Prerequisites
 
-Ensure you have the following prerequisites installed on your system:
+🧠 Ensure you have the following prerequisites installed on your system:
 
-- Brain 🧠
+- Brain
 - Internet :)
 
 ## Installation
 
 ## Installation-Guide-for-Burp-Suite-Pro-on-Windows
 
-This guide will walk you through the installation of Burp Suite Pro on a Windows system using the provided `Windows_setup.ps1` script. The script automates the installation process, including setting up Java JDK and activating Burp Suite Pro.
+🖥️ This guide will walk you through the installation of Burp Suite Pro on a Windows system using the provided `Windows_setup.ps1` script. The script automates the installation process, including setting up Java JDK and activating Burp Suite Pro.
 
 1. **Download the Windows_setup.ps1 Script**:
 
@@ -86,7 +87,7 @@ If you encounter any issues during the installation process, please refer to the
 
 ## Installation-Guide-for-Burp-Suite-Pro-on-Linux
 
-This guide will walk you through the installation of Burp Suite Pro on a Linux system using the provided `Linux.sh` script. The script automates the installation process and includes setting up Java JDK and activating Burp Suite Pro.
+🐧 This guide will walk you through the installation of Burp Suite Pro on a Linux system using the provided `Linux.sh` script. The script automates the installation process and includes setting up Java JDK and activating Burp Suite Pro.
 
 ### Prerequisites
 
@@ -135,4 +136,3 @@ Now, you have successfully installed and activated Burp Suite Pro on your Linux 
 If you encounter any issues during the installation process, please refer to the troubleshooting section in the script's documentation or reach out for assistance.
 
 **Note**: Ensure that you use this guide and the provided script responsibly and in compliance with the license terms and ethical considerations.
-
